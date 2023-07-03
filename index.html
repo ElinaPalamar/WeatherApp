@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Weather App</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+</head>
+<body>
+
+    <div class="container">
+        <div class="search-box">
+            <img src="images/locationIcon.png">
+            <input id="locationInput" type="text" placeholder="Enter your location">
+            <button class="searchButton"><ion-icon name="search"></ion-icon></button>
+        </div>
+
+        <div class="not-found">
+            <img src="images/404.jpg">
+            <p>Ooops! Invalid location...</p>
+        </div>
+
+        <div class="weather-box">
+            <img src="">
+            <p class="temperature"></p>
+            <p class="description"></p>
+        </div>
+
+        <div class="weather-details">
+            <div class="humidity">
+                <img src="images/humidity.png">
+                <span></span>
+                <p>Humidity</p>
+            </div>
+            <div class="wind">
+                <img src="images/windIcon.png">
+                <span></span>
+                <p>Wind</p>
+            </div>
+        </div>
+
+    </div>
+
+    <img class="bgObject" id="bgObj1" src="images/stars.png">
+    <img class="bgObject" id="bgObj2" src="images/star.png">
+    <img class="bgObject" id="bgObj3" src="images/stars.png">
+    <img class="bgObject" id="bgObj4" src="images/star.png">
+    <img class="bgObject" id="bgObj5" src="images/starsShooting.png">
+    <img class="bgObject" id="bgObj6" src="images/starsShooting.png">
+
+    <script src="index.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
